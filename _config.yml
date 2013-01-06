@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://peterkuczera.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://peterkuczera.com
+title: Peter Kuczera
+subtitle:
+author: Peter Kuczera
 simple_search: http://google.com/search
-description:
+description: Personal blog of Peter Kuczera
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -93,7 +93,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-29886440-1
 
 # Facebook Like
 facebook_like: false
