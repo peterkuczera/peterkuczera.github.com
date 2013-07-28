@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Peter Kuczera</title>
+  <title>Blog Archive - Peter Kuczera</title>
   <meta name="author" content="Peter Kuczera">
 
   
-  <meta name="description" content="I’ve always found it difficult to compare Amazon EC2 instance type on amazon.com. Instance specs are listed on one page and instance costs are found &hellip;">
+  <meta name="description" content="Blog Archive 2013 Amazon EC2 instance comparison site
+Jun 17 2013 posted in aws Hosting your blog on GitHub using Octopress
+Jan 10 2013 posted in &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://peterkuczera.com/">
+  <link rel="canonical" href="http://peterkuczera.com/blog/archives/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -72,110 +74,59 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/17/amazon-ec2-instance-comparison-site/">Amazon EC2 Instance Comparison Site</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-17T12:28:00-04:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
-        
-      </p>
+    <h1 class="entry-title">Blog Archive</h1>
     
   </header>
+  
+  <div id="blog-archives">
 
 
-  <div class="entry-content"><p>I’ve always found it difficult to compare Amazon EC2 instance type on amazon.com.  Instance specs are listed on one page and instance costs are found on another page.  You also need to worry about matching instances names to their description – e.g. an m1.medium instance is listed as a Standard On-Demand instance on the cost page.</p>
 
-<p><a href="http://www.ec2instances.info/">EC2Instances.info</a> is a handy page that organizes Amazon EC2 instance types, specs and costs into a sortable table.  You can display costs by hour, day, month, etc. and also configure which columns to show.  The project is open source and hosted on <a href="https://github.com/powdahound/ec2instances.info">GitHub</a>.  If you create or resize EC2 instances on a regular basis, I’d recommend bookmarking this page.</p>
+  
+  <h2>2013</h2>
+
+<article>
+  
+<h1><a href="/blog/2013/06/17/amazon-ec2-instance-comparison-site/">Amazon EC2 instance comparison site</a></h1>
+<time datetime="2013-06-17T12:28:00-04:00" pubdate><span class='month'>Jun</span> <span class='day'>17</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/aws/'>aws</a></span>
+</footer>
+
+
+</article>
+
+
+
+<article>
+  
+<h1><a href="/blog/2013/01/10/hosting-your-blog-on-github-using-octopress/">Hosting your blog on GitHub using Octopress</a></h1>
+<time datetime="2013-01-10T00:47:00-05:00" pubdate><span class='month'>Jan</span> <span class='day'>10</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/octopress/'>octopress</a></span>
+</footer>
+
+
+</article>
+
 </div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/01/10/hosting-your-blog-on-github-using-octopress/">Hosting Your Blog on GitHub Using Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
 
   
+</article>
 
-
-<time datetime="2013-01-10T00:47:00-05:00" pubdate data-updated="true">Jan 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="https://github.com/mojombo/jekyll">Jekyll</a> is a static site generator.  It allows you to write your pages in Textile or Markdown which then gets compiled into HTML.  Because no server side scripting or databases are involved, page load times are lightning fast.  You can host these static HTML files on your own web server, <a href="http://aws.typepad.com/aws/2011/02/host-your-static-website-on-amazon-s3.html">Amazon S3</a>, or even use <a href="http://pages.github.com">GitHub Pages</a>.  I decided to go with GitHub Pages for this blog.</p>
-
-<p><a href="http://octopress.org/">Octopress</a> is a static blogging framework that builds on top of Jekyll.  In addition to all the benefits Jekyll provides, Octopress also gives you a default theme and some handy rake scripts for common tasks.  For example, to generate a new post you can run:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post<span class="o">[</span><span class="s2">&quot;Title of your new post&quot;</span><span class="o">]</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Deploying your changes is as simple as running:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake deploy
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>If you&#8217;re interested in setting this up yourself, everything you need can be found in the Octopress <a href="http://octopress.org/docs/">documentation</a>, including how to <a href="http://octopress.org/docs/deploying/github/">deploy</a> to GitHub.</p>
 </div>
-  
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
     <h1>About Me</h1>
-    <p>I&#8217;m a system administrator living in Toronto, interested in open source software and the web.</p>
+    <p>I'm a system administrator living in Toronto, interested in open source software and the web.</p>
 </section>
 <section>
     <h1>Links</h1>
@@ -206,6 +157,7 @@
 
   
 </aside>
+
 
     </div>
   </div>

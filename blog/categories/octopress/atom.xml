@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Peter Kuczera]]></title>
+  <link href="http://peterkuczera.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://peterkuczera.com/"/>
+  <updated>2013-07-28T01:53:48-04:00</updated>
+  <id>http://peterkuczera.com/</id>
+  <author>
+    <name><![CDATA[Peter Kuczera]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hosting your blog on GitHub using Octopress]]></title>
+    <link href="http://peterkuczera.com/blog/2013/01/10/hosting-your-blog-on-github-using-octopress/"/>
+    <updated>2013-01-10T00:47:00-05:00</updated>
+    <id>http://peterkuczera.com/blog/2013/01/10/hosting-your-blog-on-github-using-octopress</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/mojombo/jekyll">Jekyll</a> is a static site generator.  It allows you to write your pages in Textile or Markdown which then gets compiled into HTML.  Because no server side scripting or databases are involved, page load times are lightning fast.  You can host these static HTML files on your own web server, <a href="http://aws.typepad.com/aws/2011/02/host-your-static-website-on-amazon-s3.html">Amazon S3</a>, or even use <a href="http://pages.github.com">GitHub Pages</a>.  I decided to go with GitHub Pages for this blog.</p>
+
+<p><a href="http://octopress.org/">Octopress</a> is a static blogging framework that builds on top of Jekyll.  In addition to all the benefits Jekyll provides, Octopress also gives you a default theme and some handy rake scripts for common tasks.  For example, to generate a new post you can run:</p>
+
+<p><code>bash
+rake new_post["Title of your new post"]
+</code></p>
+
+<p>Deploying your changes is as simple as running:</p>
+
+<p><code>bash
+rake deploy
+</code></p>
+
+<p>If you're interested in setting this up yourself, everything you need can be found in the Octopress <a href="http://octopress.org/docs/">documentation</a>, including how to <a href="http://octopress.org/docs/deploying/github/">deploy</a> to GitHub.</p>
+]]></content>
+  </entry>
+  
+</feed>

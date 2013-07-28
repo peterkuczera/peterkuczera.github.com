@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://peterkuczera.com/blog/2013/01/10/hosting-your-blog-on-github-using-octopress/
+        </loc>
+        <lastmod>2013-07-28T01:23:33-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://peterkuczera.com/blog/2013/06/17/amazon-ec2-instance-comparison-site/</loc>
+        <lastmod>2013-07-28T01:47:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://peterkuczera.com/</loc>
+        <lastmod>2013-07-28T01:47:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://peterkuczera.com/robots.txt</loc>
+        <lastmod>2013-07-28T01:23:33-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://peterkuczera.com/blog/archives/</loc>
+        <lastmod>2013-07-28T01:47:43-04:00</lastmod>
+    </url>
+</urlset>

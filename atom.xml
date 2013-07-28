@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Peter Kuczera]]></title>
+  <link href="http://peterkuczera.com/atom.xml" rel="self"/>
+  <link href="http://peterkuczera.com/"/>
+  <updated>2013-07-28T01:53:48-04:00</updated>
+  <id>http://peterkuczera.com/</id>
+  <author>
+    <name><![CDATA[Peter Kuczera]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Amazon EC2 instance comparison site]]></title>
+    <link href="http://peterkuczera.com/blog/2013/06/17/amazon-ec2-instance-comparison-site/"/>
+    <updated>2013-06-17T12:28:00-04:00</updated>
+    <id>http://peterkuczera.com/blog/2013/06/17/amazon-ec2-instance-comparison-site</id>
+    <content type="html"><![CDATA[<p>I’ve always found it difficult to compare Amazon EC2 instance type on amazon.com.  Instance specs are listed on one page and instance costs are found on another page.  You also need to worry about matching instances names to their description – e.g. an m1.medium instance is listed as a Standard On-Demand instance on the cost page.</p>
+
+<p><a href="http://www.ec2instances.info/">EC2Instances.info</a> is a handy page that organizes Amazon EC2 instance types, specs and costs into a sortable table.  You can display costs by hour, day, month, etc. and also configure which columns to show.  The project is open source and hosted on <a href="https://github.com/powdahound/ec2instances.info">GitHub</a>.  If you create or resize EC2 instances on a regular basis, I’d recommend bookmarking this page.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hosting your blog on GitHub using Octopress]]></title>
+    <link href="http://peterkuczera.com/blog/2013/01/10/hosting-your-blog-on-github-using-octopress/"/>
+    <updated>2013-01-10T00:47:00-05:00</updated>
+    <id>http://peterkuczera.com/blog/2013/01/10/hosting-your-blog-on-github-using-octopress</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/mojombo/jekyll">Jekyll</a> is a static site generator.  It allows you to write your pages in Textile or Markdown which then gets compiled into HTML.  Because no server side scripting or databases are involved, page load times are lightning fast.  You can host these static HTML files on your own web server, <a href="http://aws.typepad.com/aws/2011/02/host-your-static-website-on-amazon-s3.html">Amazon S3</a>, or even use <a href="http://pages.github.com">GitHub Pages</a>.  I decided to go with GitHub Pages for this blog.</p>
+
+<p><a href="http://octopress.org/">Octopress</a> is a static blogging framework that builds on top of Jekyll.  In addition to all the benefits Jekyll provides, Octopress also gives you a default theme and some handy rake scripts for common tasks.  For example, to generate a new post you can run:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post<span class="o">[</span><span class="s2">&quot;Title of your new post&quot;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Deploying your changes is as simple as running:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake deploy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If you&#8217;re interested in setting this up yourself, everything you need can be found in the Octopress <a href="http://octopress.org/docs/">documentation</a>, including how to <a href="http://octopress.org/docs/deploying/github/">deploy</a> to GitHub.</p>
+]]></content>
+  </entry>
+  
+</feed>

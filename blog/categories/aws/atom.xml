@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: aws | Peter Kuczera]]></title>
+  <link href="http://peterkuczera.com/blog/categories/aws/atom.xml" rel="self"/>
+  <link href="http://peterkuczera.com/"/>
+  <updated>2013-07-28T01:53:48-04:00</updated>
+  <id>http://peterkuczera.com/</id>
+  <author>
+    <name><![CDATA[Peter Kuczera]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Amazon EC2 instance comparison site]]></title>
+    <link href="http://peterkuczera.com/blog/2013/06/17/amazon-ec2-instance-comparison-site/"/>
+    <updated>2013-06-17T12:28:00-04:00</updated>
+    <id>http://peterkuczera.com/blog/2013/06/17/amazon-ec2-instance-comparison-site</id>
+    <content type="html"><![CDATA[<p>I’ve always found it difficult to compare Amazon EC2 instance type on amazon.com.  Instance specs are listed on one page and instance costs are found on another page.  You also need to worry about matching instances names to their description – e.g. an m1.medium instance is listed as a Standard On-Demand instance on the cost page.</p>
+
+<p><a href="http://www.ec2instances.info/">EC2Instances.info</a> is a handy page that organizes Amazon EC2 instance types, specs and costs into a sortable table.  You can display costs by hour, day, month, etc. and also configure which columns to show.  The project is open source and hosted on <a href="https://github.com/powdahound/ec2instances.info">GitHub</a>.  If you create or resize EC2 instances on a regular basis, I’d recommend bookmarking this page.</p>
+]]></content>
+  </entry>
+  
+</feed>
